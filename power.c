@@ -1,0 +1,18 @@
+#include<stdio.h>
+void main()
+{
+	int x,n,result;
+	printf("Enter base:");
+	scanf("%d",&x);
+	printf("Enter exponent:");
+	scanf("%d",&n);
+	result=power(x,n);
+	printf("%d raise to %d is :%d",x,n,result);
+}
+int power(int x,int n)
+{
+	if(n==0)
+	return 1;
+	else
+	return x*power(x,n-1);
+}
