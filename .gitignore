@@ -1,0 +1,37 @@
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+*.lo
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Dependency files
+*.d
+
+# Core dumps
+core
